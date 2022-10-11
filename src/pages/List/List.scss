@@ -1,0 +1,25 @@
+
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+
+  .newwrap{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    flex: 1;
+
+  }
+  .saletext{
+    margin-top: 150px;
+    display: flex;
+    margin-right: 600px;
+    margin-left: 300px;
+
+  }
+
+
+}

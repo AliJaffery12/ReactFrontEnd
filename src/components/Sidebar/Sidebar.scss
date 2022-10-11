@@ -1,0 +1,88 @@
+.sidebar{
+
+    flex: 1;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 90vh;
+    background-color: rgb(31, 27, 27);
+    ;
+    .top{
+        height: 50x;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color:aqua;
+        }
+    }
+
+    hr{
+        height: 0;
+        border: 0.5px solid lightgray;
+
+
+    }
+    li{
+        font-weight: bold;
+        color: rgb(242, 249, 255);
+
+    }
+    .center{
+        padding: 20px;
+    }
+    ul{
+        list-style: none;
+        padding: 0%;
+        margin: 0;
+
+        .dashboardtext{
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0%;
+            min-height: 10px;
+        }
+        .tableheading{
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0%;
+            min-height: 10px;
+
+        }
+        .notificationheading{
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0%;
+            min-height: 10px;
+
+        }
+        .profileheading{
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0%;
+            min-height: 10px;
+        }
+        .SigniHeading{
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0%;
+            min-height: 10px;
+        }
+        .Signupheading{
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0%;
+            min-height: 10px;
+        }
+        li{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgb(43, 46, 50);
+            }
+        }
+    }
+}

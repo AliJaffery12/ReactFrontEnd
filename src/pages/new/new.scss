@@ -1,0 +1,21 @@
+.list {
+
+    width: 100%;
+    .listContainer {
+      display:flex;
+      flex-direction: column;
+      flex: 6;
+      padding: 25px;
+      gap:20px;
+
+      .predictionstxt{
+        padding: 10px;
+      }
+      .Advtxt{
+        display: flex;
+        position: absolute;
+        margin-left: 200px;
+      }
+
+    }
+  }

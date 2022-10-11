@@ -1,0 +1,66 @@
+.home{
+    display: flex;
+    .homeContianer{
+
+        flex: 6;
+
+        .widgets,.charts{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+
+
+        }
+        .charts{
+            padding: 5px,20px;
+        }
+        .welocme{
+            padding:10px,20px;
+            font-style: bold;
+            font-weight: bold;
+            font-size: 22px;
+            font-family: fantasy;
+            padding: 20px;
+            gap: 20px;
+
+
+        }
+        .desc{
+          padding: 20px;
+          gap: 20px;
+
+        }
+        .btnlinks{
+          margin-left: 1200px;
+          font-weight: bold;
+          font-size: 22px;
+          font-family: sans-serif;
+        }
+        .Buttons{
+          margin-left: 1200px;
+          font-weight: bold;
+          font-size: 22px;
+          font-family: sans-serif;
+          cursor: pointer;
+          border: none;
+
+
+
+
+
+
+
+
+          .btntext{
+            font-size: 20px;
+            text-align: center;
+
+          }
+
+
+
+        }
+
+
+    }
+}

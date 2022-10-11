@@ -1,0 +1,89 @@
+
+    .nextlistContainer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      .sanky{
+        margin-top: 100px;
+        display: flex;
+        margin-left: -180px;
+  
+
+      }
+
+      .markettxt{
+        margin-left: 15px;
+        margin-top: 7px;
+      }
+
+      .btnAlert{
+        margin-top: 700px;
+        width: 200px;
+        height: 100px;
+      }
+
+      .textmarket{
+        display: flex;
+        margin-top: 600px;
+        display: flex;
+        margin-left: 20px;
+        text-align: center;
+        justifyContent: center;
+        alignItems: center ;
+      }
+
+      .table {
+        border: 2px solid black;
+        width: 400px;
+        height: 200px;
+        margin: 150px;
+
+        .btncostdrivers{
+          margin-left: 420px;
+          margin-top: -80px;
+          width: 300px;
+
+        }
+        .th {
+            border-bottom: 1px solid black;
+            border-bottom: 1px solid black;
+            border: 2px solid black;
+          }
+
+        .td {
+          text-align: center;
+          border-bottom: 1px solid black;
+          border: 2px solid black;
+        }
+
+      }
+
+
+    .markettable{
+        margin-left: -265px;
+
+        margin-top:65px;
+        border: 2px solid black;
+        width: 450px;
+        height: 100px;
+    }
+    .btnmarketalert{
+      margin-top: -50px;
+      margin-left:500px;
+
+    }
+    .producttable{
+      margin-top: 65px;
+      border: 2px solid black;
+      width: 450px;
+      height: 100px;
+      border-collapse: collapse;
+
+
+
+    }
+
+
+
+    }
